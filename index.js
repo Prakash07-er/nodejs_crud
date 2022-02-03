@@ -8,7 +8,7 @@ app.use(express.json());
 
 
 // local server connection
-const port = process.env.port || 3000
+const port = process.env.port || 3005
 
 // MongoDB connection
 const URI = process.env.MONGO_URL
